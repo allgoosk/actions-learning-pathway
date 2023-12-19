@@ -2,7 +2,7 @@ name: hello-world
 on: push
 jobs:
   hello-world-job: null
-  runs-on: ubuntu-latest
+  uses: ubuntu-latest
   steps:
     - name: Check out repository code
       uses: actions/checkout@v3
